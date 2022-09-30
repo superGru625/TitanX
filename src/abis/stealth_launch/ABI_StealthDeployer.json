@@ -1,0 +1,227 @@
+[
+    {
+        "inputs": [
+            {
+                "internalType": "contract StorageContract",
+                "name": "_store",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "internalType": "address",
+                "name": "previousOwner",
+                "type": "address"
+            },
+            {
+                "indexed": true,
+                "internalType": "address",
+                "name": "newOwner",
+                "type": "address"
+            }
+        ],
+        "name": "OwnershipTransferred",
+        "type": "event"
+    },
+    {
+        "inputs": [],
+        "name": "DAOContract",
+        "outputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "_newStorage",
+                "type": "address"
+            }
+        ],
+        "name": "changeStorage",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "_new",
+                "type": "uint256"
+            }
+        ],
+        "name": "changesteahlthFee",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "contract ERC20",
+                "name": "_token0",
+                "type": "address"
+            },
+            {
+                "internalType": "contract ERC20",
+                "name": "_token1",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "_tokensForLiquidity0",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "_tokensForLiquidity1",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "_lockTime",
+                "type": "uint256"
+            },
+            {
+                "internalType": "address",
+                "name": "_actualDEXRouter",
+                "type": "address"
+            }
+        ],
+        "name": "createStealthIndividualTokens",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "contract ERC20",
+                "name": "_token0",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "_tokensForLiquidity0",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "_tokensForLiquidity1",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "_lockTime",
+                "type": "uint256"
+            },
+            {
+                "internalType": "address",
+                "name": "_actualDEXRouter",
+                "type": "address"
+            }
+        ],
+        "name": "createStealthNative",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "_token",
+                "type": "address"
+            }
+        ],
+        "name": "inCaseTokensGetStuck",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "owner",
+        "outputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "renounceOwnership",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "_contract",
+                "type": "address"
+            }
+        ],
+        "name": "setDAOContract",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "steahlthCounter",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "steahlthFee",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "newOwner",
+                "type": "address"
+            }
+        ],
+        "name": "transferOwnership",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+]

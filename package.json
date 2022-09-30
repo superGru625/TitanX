@@ -1,0 +1,102 @@
+{
+  "name": "Titan X",
+  "version": "0.1.0",
+  "homepage": "https://titanx.org",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@date-io/date-fns": "^1.3.13",
+    "@headlessui/react": "^1.5.0",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/pickers": "^3.3.10",
+    "@pancakeswap/sdk": "^2.4.0",
+    "@ramonak/react-progress-bar": "^4.2.0",
+    "@types/tabulator-tables": "^5.0.1",
+    "@walletconnect/web3-provider": "^1.7.0",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/frame-connector": "^6.0.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "@web3-react/network-connector": "^6.2.9",
+    "@web3-react/walletconnect-connector": "^6.2.8",
+    "antd": "^4.17.4",
+    "apexcharts": "^3.34.0",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "date-fns": "^2.0.0-beta.5",
+    "hook-factory": "^1.0.0",
+    "i": "^0.3.7",
+    "ipfs-http-client": "^56.0.2",
+    "jest-worker": "^27.5.1",
+    "js-big-decimal": "^1.3.4",
+    "moralis": "^1.2.7",
+    "npm": "^8.7.0",
+    "react": "^17.0.2",
+    "react-alert": "^7.0.3",
+    "react-alert-template-basic": "^1.0.2",
+    "react-animated-heart": "^0.0.7-alpha.1",
+    "react-apexcharts": "^1.4.0",
+    "react-blockies": "^1.4.1",
+    "react-bootstrap": "^2.0.0",
+    "react-countdown": "^2.3.2",
+    "react-countup": "^6.1.0",
+    "react-data-table-component": "^7.4.6",
+    "react-date-countdown-timer": "^1.1.0",
+    "react-display-console": "^0.2.5",
+    "react-dom": "^17.0.2",
+    "react-heart": "^1.0.6",
+    "react-hot-toast": "^2.2.0",
+    "react-icons": "^4.4.0",
+    "react-iframe": "^1.8.0",
+    "react-moralis": "^1.2.5",
+    "react-pro-sidebar": "^0.7.1",
+    "react-query": "^3.34.2",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "^4.0.3",
+    "react-scroll-to-bottom": "^4.2.0",
+    "react-slick": "^0.28.1",
+    "react-switch": "^6.0.0",
+    "react-visibility-sensor": "^5.1.1",
+    "recoil": "^0.5.2",
+    "recoil-nexus": "^0.3.10",
+    "simple-pancakeswap-sdk": "^1.1.1",
+    "slick-carousel": "^1.8.1",
+    "sockjs-client": "^1.5.2",
+    "stompjs": "^2.3.3",
+    "styled-components": "^5.3.3",
+    "sweetalert2": "^11.4.5",
+    "web-vitals": "^1.1.2",
+    "web3": "^1.6.1",
+    "web3-batch-request": "^1.0.1",
+    "zustand": "^3.7.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "tailwindcss": "^3.0.11"
+  }
+}
